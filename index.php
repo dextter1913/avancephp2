@@ -25,7 +25,7 @@ include("clases/conexionOpen.php");
 
         ?>
     </div>
-    <div class="col-3 col-md-3">
+    <div class="col-4 col-md-4">
         <table class="table table-dark table-hover">
             <thead>
                 <tr>
@@ -57,7 +57,7 @@ include("clases/conexionOpen.php");
             </tbody>
         </table>
     </div>
-    <div class="col-3 col-md-3"></div>
+    <div class="col-2 col-md-2"></div>
 </div>
 <?php
 include("./fragmentos/footer.php");
