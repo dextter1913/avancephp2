@@ -58,6 +58,17 @@ include("clases/conexionOpen.php");
         </table>
     </div>
     <div class="col-2 col-md-2"></div>
+</div><br><br>
+<div class="row">
+    <div class="col-4 col-md-4"></div>
+    <div class="col-4 col-md-4">
+        <form action="buscar.php" method="post">
+            <label for="Buscar">Buscar por nombre</label>
+            <input type="text" name="buscar" id="Buscar" class="form-control" placeholder="Ingrese nombre del producto"><br><br>
+            <button class="btn btn-success">Buscar</button>
+        </form>
+    </div>
+    <div class="col-4 col-md-4"></div>
 </div>
 <?php
 include("./fragmentos/footer.php");
